@@ -1,0 +1,85 @@
+main{ 
+    padding: 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*MAIN CONTENT ========== */
+
+main .main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+main .main-content h2 {
+    margin-bottom: 2%;
+    font-size: 1.2em;
+}
+
+main .main-content .text_article {
+    margin-bottom: 6%;
+}
+
+main .main-content .text_article p {
+    width: 75%; 
+    font-size:1.0em;
+    font-weight: 300;
+    margin-right: 1.0;
+}
+
+/*CARDS ==========*/
+
+main .techs .cards-container {
+    display: flex;
+    align-items: center;
+}
+
+main .techs .cards-container .cards {
+    width: 80px;
+    height: 80px;
+    padding: 8px;
+    background-color: #eee;
+    border-radius: 8px;
+    margin-right: 1em;
+    margin-left: 1em;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: box-shadow 0.25s ease-in-out;
+}
+
+main .techs .cards-container .cards img {
+    width: 80%;
+}
+
+main .techs .cards-container .cards:hover{
+    box-shadow:  0px 0px 8px  #00e0ff;
+}
+
+/* figure =====*/
+
+main figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main figure img{
+        width: 250px;
+        height: 250px;
+        border-radius: 200px;
+
+        margin-bottom: 6%;
+        border: 1px #00e0ff solid;
+        transition: box-shadow 0.25s ease-in-out;
+}
+
+main figure img:hover {
+    box-shadow: 0px 0px 6px #00e0ff;
+}
